@@ -19,9 +19,9 @@
   replace: site.data.conf.main.brand_replace, "[Mr. Green](https://github.com/MrGreensWorkshop/MrGreen-JekyllTheme)"
 %}
 
-{%- for index in (1..5) %}
-  {% assign const_sample = const_sample | append: site.data.lang[lng].constants.sample | append: " " %}
-{% endfor -%}
+
+{% assign const_sample = "이 곳의 기록을 통해 조금이나마 시간을 절약하실 수 있길 바랍니다!" %}
+
 
 {%- if site.data.owner[lng].auto_content.text -%}
   {%- capture website_info_text -%}

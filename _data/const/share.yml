@@ -17,9 +17,6 @@
 - telegram:
   icon: "fa fa-telegram"
   url: "https://t.me/share/url?url={url}&text={text}"
-- linkedin:
-  icon: "fa fa-linkedin-square"
-  url: "https://www.linkedin.com/sharing/share-offsite/?url={url}"
 - email:
   icon: "fa fa-envelope"
   url: "mailto:?subject={title}&body={title}%20{url}"

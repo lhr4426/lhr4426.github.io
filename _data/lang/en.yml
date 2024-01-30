@@ -104,7 +104,6 @@ post:
       twitter: Twitter
       facebook: Facebook
       telegram: Telegram
-      linkedin: LinkedIn
       email: Email
       copy_link: Copy link
 
@@ -171,9 +170,9 @@ privacy-policy:
 
 # constants to be replaced for
 constants:
-  greetings: Hello
+  greetings: Hello, Viewer!
   welcome: Welcome
-  sample: Sample
+  sample: 테스트
 
 # for contact form
 contact_form:
