@@ -9,9 +9,9 @@ GEM
       eventmachine (>= 0.12.9)
       http_parser.rb (~> 0)
     eventmachine (1.2.7-x86-mingw32)
-    ffi (1.16.3)
+    ffi (1.16.3-x86-mingw32)
     forwardable-extended (2.6.0)
-    google-protobuf (3.25.2)
+    google-protobuf (3.25.2-x86-mingw32)
     http_parser.rb (0.8.0)
     i18n (1.14.1)
       concurrent-ruby (~> 1.0)
@@ -86,4 +86,4 @@ DEPENDENCIES
   wdm (~> 0.1.1)
 
 BUNDLED WITH
-   2.5.3
+   2.5.5
