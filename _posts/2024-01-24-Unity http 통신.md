@@ -6,12 +6,11 @@ tags :
     [
         "Unity", "http", "통신"
     ]
+description : 다른 캡스톤 팀원이 웹 서버를 만들어 두어서, 그 서버 메소드를 사용하기 위해 get을 사용하는 과정을 기록했음  
 ---
 Unity Version : 2022.3.16f1 LTS
 
-다른 캡스톤 팀원이 웹 서버를 만들어 두어서, 그 서버 메소드를 사용하기 위해 get을 사용하는 과정을 기록했음  
-
-# 사용자가 입력한 값 받기
+## 사용자가 입력한 값 받기
 
 우선 사용자가 회원가입할 때 입력한 ID, Email, PW를 스크립트에서 받아야 함
 
@@ -27,7 +26,7 @@ public void OnClickRegister()
 }
 ```
 
-# Get으로 ID 있는지 확인
+### Get으로 ID 있는지 확인
 
 Get을 위한 코루틴 생성
 
@@ -87,7 +86,7 @@ public void OnClickRegister()
 }
 ```
 
-## 결과
+### 결과
 
 ![이미 있는 아이디 작성했을 때](https://private-user-images.githubusercontent.com/37866532/302090097-7db2b6df-13f0-4fc3-9998-fc0334bfbd76.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MDcwMzc1MjgsIm5iZiI6MTcwNzAzNzIyOCwicGF0aCI6Ii8zNzg2NjUzMi8zMDIwOTAwOTctN2RiMmI2ZGYtMTNmMC00ZmMzLTk5OTgtZmMwMzM0YmZiZDc2LnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDAyMDQlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwMjA0VDA5MDAyOFomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWE5ZTFlNjA1OGQyN2NhYjVhZDUyMzMxYjg5OWQ0MjMwMDU5OGNmYWYxNTg4NDQ1M2JhMDc5ZDczYmEwYWE4Y2UmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.DhO1i6LYQuh0tnwTLfgRiy41PnraKSuzg3mOJYzu86E)
 
@@ -101,7 +100,7 @@ public void OnClickRegister()
 
 ![Untitled](https://private-user-images.githubusercontent.com/37866532/302090104-817c03e8-4987-4c6e-91d0-f0182966683c.png?jwt=eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJnaXRodWIuY29tIiwiYXVkIjoicmF3LmdpdGh1YnVzZXJjb250ZW50LmNvbSIsImtleSI6ImtleTUiLCJleHAiOjE3MDcwMzc1MjgsIm5iZiI6MTcwNzAzNzIyOCwicGF0aCI6Ii8zNzg2NjUzMi8zMDIwOTAxMDQtODE3YzAzZTgtNDk4Ny00YzZlLTkxZDAtZjAxODI5NjY2ODNjLnBuZz9YLUFtei1BbGdvcml0aG09QVdTNC1ITUFDLVNIQTI1NiZYLUFtei1DcmVkZW50aWFsPUFLSUFWQ09EWUxTQTUzUFFLNFpBJTJGMjAyNDAyMDQlMkZ1cy1lYXN0LTElMkZzMyUyRmF3czRfcmVxdWVzdCZYLUFtei1EYXRlPTIwMjQwMjA0VDA5MDAyOFomWC1BbXotRXhwaXJlcz0zMDAmWC1BbXotU2lnbmF0dXJlPWJiZGY4OWExNDEwN2UzM2Q1Yzc5MTZjYzZhYjVjMTk0ZTE0MGM5OGE5NmVjMDllNzhmMGZiMzg3NTI1NWMwZmQmWC1BbXotU2lnbmVkSGVhZGVycz1ob3N0JmFjdG9yX2lkPTAma2V5X2lkPTAmcmVwb19pZD0wIn0.5_vAcj5Drmj-QhYVeulyZW2K4a5nE9Omc9EBKwLG1ko)
 
-# 참고자료
+## 참고자료
 
 [유니티 HTTP 통신 구현 핵심 정리1](https://coding-of-today.tistory.com/166)
 
